@@ -18,7 +18,7 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 		3. [Input and Output](#Input-and-Output)
 	2. [Language Support](#Language-Support)
 	3. [Tech Specs](#Technical-Specifications)
- 2. [Methodology](#Methodology)
+2. [Methodology](#Methodology)
  	1. [Test Phrases](#Test-Phrases)
   		1. [Template Phrases](#Template-Phrases)
     		2. [Key Words](#Key-Words)
