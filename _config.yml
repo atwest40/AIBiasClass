@@ -23,6 +23,7 @@ navbar-links:
   Analysis: "analysis"
   Code: "code"
   Data: "data"
+  Website code: "https://github.com/atwest40/AIBiasClass/"
 
 ################
 # --- Logo --- #
