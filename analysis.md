@@ -42,7 +42,7 @@ These scores indicate the **likelihood that a given comment falls into each cate
 Detoxify provides three main models, each fine-tuned for a different classification task and use case:
 
 | Model Name   | Base Transformer  | Task & Dataset                                                       | Purpose                                                                               |
-| ------------ | ----------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| :----------- | :---------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
 | original     | bert-base-uncased | Jigsaw 2018 Toxic Comment Classification<br><br>(Wikipedia Comments) | Detect multiple forms of toxicity like insults, identity hate, and threats in English |
 | unbiased     | roberta-base      | Jigsaw 2019 Unintended Bias in Toxicity (Civil Comments)             | Trained to reduce bias across identity groups while detecting toxicity                |
 | multilingual | xlm-roberta-base  | Jigsaw 2020 Multilingual Toxic Comments (Wikipedia + Civil Comments) | Designed to detect toxicity in seven languages, including French and Russian          |
