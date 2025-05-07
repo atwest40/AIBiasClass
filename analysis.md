@@ -12,17 +12,17 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 
 # Table of Contents
 1. [What is Detoxify? - Understanding Toxicity Detection in Language](#What-is-Detoxify?---Understanding-Toxicity-Detection-in-Language)
-	1.1. [How does it work?](#How-Does-It-Work?)
-		1.1.1. [What does it detect?](#What-Does-It-Detect?)
-		1.1.2. [Available models](#Available-Models)
-		1.1.3. [Input and Output](#Input-and-Output)
-	1.2. [Language Support](#Language-Support)
-	1.3. [Tech Specs](#Technical-Specifications)
+	1. [How does it work?](#How-Does-It-Work?)
+		1. [What does it detect?](#What-Does-It-Detect?)
+		2. [Available models](#Available-Models)
+		3. [Input and Output](#Input-and-Output)
+	2. [Language Support](#Language-Support)
+	3. [Tech Specs](#Technical-Specifications)
 2. [Methodology](#Methodology)
-	2.1. [Test Phrases](#Test-Phrases)
-		2.1.1. [Template Phrases](#Template-Phrases)
-		2.1.2. [Key Words](#Key-Words)
-	2.2. [Technical Implementation](#Technical-Implementation)
+	1. [Test Phrases](#Test-Phrases)
+		1. [Template Phrases](#Template-Phrases)
+		2. [Key Words](#Key-Words)
+	2. [Technical Implementation](#Technical-Implementation)
 
 # What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
@@ -133,6 +133,37 @@ The toxicity score from Detoxify was received, and separated from the additional
 
 Finally, Google Sheets was used to read the CSV file and to provide first-level analysis, namely a gradient colour mapping of toxicity scores allowing easy-to-read and simple analyses to be made before more in-depth charts were produced.
 
+## Comparison 
+![PHOTO-2025-05-02-01-20-38](https://github.com/user-attachments/assets/1bd0399f-8a1c-4abd-b7a2-27d97710097e)
+
+![PHOTO-2025-05-02-01-40-33](https://github.com/user-attachments/assets/142ef0fd-70b0-426b-b993-fb22229d0cdc)
+
+![PHOTO-2025-05-02-01-39-57](https://github.com/user-attachments/assets/082e281b-9c92-4dd7-a12e-bcbe83fb2c84)
+
+
+## Findings English: 
+
+
+## Findings French: 
+![PHOTO-2025-05-02-00-54-01](https://github.com/user-attachments/assets/46618730-d0a2-4daa-a3d8-a5ffc776c4c4) 
+Primarily, sexual identity content is marked as toxic far more than content addressing race, gender identity, or religion. Specifically, sexual identity averages a toxicity score of 0.454 — the highest across all categories and languages analyzed. This suggests that the model is most attuned to LGBTQ+-related language, likely reflecting both the prevalence of queerphobic language in training data and the broader social emphasis on identifying and mitigating this form of discrimination. French might provide linguistic features where it is easier to read queerphobic hate speech, which is often more direct- This indicates that the model is sensitive to the social harms associated with sexual identity, though can also indicate a tendency to over-flag certain content when it lacks respectful context. This leads to a broader discussion to what degree content moderation can limit reclaimed hate speech, and to what degree it interprets neutral terms like ‘gay’ more often as an inherently prerogative term. This would imply that Detoxify might be imbued with a predetermined association between, especially queer terms, and hate. This could limit open and free discouse on queer and LGBTQIA+ issues.
+
+One especially interesting French-specific finding is the over-flagging of the term "homme" (man). This is due to the fact that the word has a dual meaning in French; un homme et l’Homme. While it neutrally designates a male person, its capitaöization can imply humankind (a feature English also possess but uses less often “Mankind”, often favoring the word human). For a pattern-recognition and statistically driven AI system such as Detoxify, this type of semantic ambiguity is challenging. Stripped of full contextual nuance, the system will misflag neutral or even positive uses of the word "homme" as toxic or it might not, being unable to differentiate between human, a more toxic attack, and man, which can be reclaimed speech. This highlights a broad Achilles' heel of AI models working across languages with rich idiomatic and cultural densities.
+
+For comparison, religious content receives a very low average toxicity score of 0.232 - the lowest across all languages and categories analyzed. This result likely mirrors some aspects of French culture. France also has a strong tradition of secularism (laïcité) and is fiercely exceptionable to freedom of speech, including freedom to criticize explicitly religious beliefs and institutions. Where such criticism would be offensive or hateful in some other cultural contexts, in France it would be merely part of acceptable public discussion. This suggests that the model, by design or due to patterns in the data on which it was trained, reflects some of these social norms, underestimating the toxicity of religious commentry compared to other sensitive topics.
+
+Despite the system being so sensitive to sexual identity matters, it is less sensitive to cultural nuances concerning religion or to specific linguistic traps (like double meanings) in French. This underscores the need for careful calibration and culturally sensitive training in the deployment of automated moderation tools so that they heed not only universal trends of hate speech but also local linguistic and cultural specificities.
+
+## Findings Russian: 
+
+
+## Findings Example: 
+
+![PHOTO-2025-05-02-01-41-24](https://github.com/user-attachments/assets/7c54001e-df4c-46d1-b0e2-d44c04bf02ee)
+
+![PHOTO-2025-05-02-01-41-25](https://github.com/user-attachments/assets/ab10dc78-6f71-4be8-9ef1-88a79ca3906f)
+
+![PHOTO-2025-05-02-01-41-25](https://github.com/user-attachments/assets/feed12cc-13f1-4a70-842f-94dd0eaf030c)
 
 ## Takeaways: Decoding Biases in Content Moderation 
 1) *Toxicity is nuanced and language-specific*:
