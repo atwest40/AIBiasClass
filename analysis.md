@@ -12,17 +12,17 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 
 # Table of Contents
 1. [What is Detoxify? - Understanding Toxicity Detection in Language](#What-is-Detoxify?---Understanding-Toxicity-Detection-in-Language)
-	1. [How does it work?](#How-Does-It-Work?)
-		1. [What does it detect?](#What-Does-It-Detect?)
-		2. [Available models](#Available-Models)
-		3. [Input and Output](#Input-and-Output)
-	2. [Language Support](#Language-Support)
-	3. [Tech Specs](#Technical-Specifications)
+	1.1. [How does it work?](#How-Does-It-Work?)
+		1.1.1. [What does it detect?](#What-Does-It-Detect?)
+		1.1.2. [Available models](#Available-Models)
+		1.1.3. [Input and Output](#Input-and-Output)
+	1.2. [Language Support](#Language-Support)
+	1.3. [Tech Specs](#Technical-Specifications)
 2. [Methodology](#Methodology)
-	1. [Test Phrases](#Test-Phrases)
-		1. [Template Phrases](#Template-Phrases)
-		2. [Key Words](#Key-Words)
-	2. [Technical Implementation](#Technical-Implementation)
+	2.1. [Test Phrases](#Test-Phrases)
+		2.1.1. [Template Phrases](#Template-Phrases)
+		2.1.2. [Key Words](#Key-Words)
+	2.2. [Technical Implementation](#Technical-Implementation)
 
 # What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
