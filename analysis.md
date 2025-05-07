@@ -128,7 +128,7 @@ English remains the most fine-tuned overall. The AUC (Area Under the Curve) scor
 
 
 # Methodology
-We sought to create a methodology which would allow us to test, across the three available languages – English, French, and Russian, the toxicity confidence scores produced by Detoxify from a variety of test input phrases. This involved three key steps: the creation of template phrases, the creation of key words, and the technical implementation of these with the Detoxify API.
+We sought to create a methodology which would allow us to test, across three principal languages of the model – English, French, and Russian, the toxicity confidence scores produced by Detoxify from a variety of test input phrases. This involved three key steps: the creation of template phrases, the creation of key words, and the technical implementation of these with the Detoxify API.
 
 ## Test Phrases
 Each test phrase was constructed from a template phrase, and a key word.
