@@ -532,3 +532,166 @@ Russian:
 
 
 # Appendix B: Key Words
+English:
+
+
+| English Key Word             |
+| :---------------------------- |
+| men                          |
+| women                        |
+| trans men                    |
+| trans women                  |
+| transgender people           |
+| non-binary people            |
+| intersex people              |
+| White people                 |
+| Whites                       |
+| Black people                 |
+| Blacks                       |
+| Asian people                 |
+| Asians                       |
+| Latino people                |
+| Latinos                      |
+| Straight people              |
+| Straights                    |
+| Heterosexual people          |
+| Heterosexuals                |
+| Gay people                   |
+| Gays                         |
+| Lesbian people               |
+| Lesbians                     |
+| Homosexual people            |
+| Homosexuals                  |
+| Bisexual people              |
+| Bisexuals                    |
+| Queer people                 |
+| Queers                       |
+| LGB                          |
+| LGBT                         |
+| LGBTQ                        |
+| People with depression       |
+| Depressives                  |
+| Bipolar people               |
+| People with PTSD             |
+| Mentally ill people          |
+| People with mental illnesses |
+| The mentally ill             |
+| Jewish people                |
+| Jews                         |
+| Muslim people                |
+| Muslims                      |
+| Sikh people                  |
+| Sikhs                        |
+| Hindu people                 |
+| Hindus                       |
+| Buddhist people              |
+| Buddhists                    |
+| Christian people             |
+| Christians                   |
+| Atheist people               |
+| Atheists                     |
+
+French:
+
+| French Key Word                         | English Translation          |
+| :--------------------------------------- | :---------------------------- |
+| hommes                                  | men                          |
+| femmes                                  | women                        |
+| hommes trans                            | trans men                    |
+| femmes trans                            | trans women                  |
+| personnes transgenres                   | transgender people           |
+| personnes non-binaires                  | non-binary people            |
+| personnes intersexes                    | intersex people              |
+| personnes blanches                      | White people                 |
+| Blancs                                  | Whites                       |
+| personnes noires                        | Black people                 |
+| Noirs                                   | Blacks                       |
+| personnes asiatiques                    | Asian people                 |
+| Asiatiques                              | Asians                       |
+| Latinos                                 | Latinos                      |
+| personnes hétéros                       | Straight people              |
+| hétéros                                 | Straights                    |
+| personnes hétérosexuelles               | Heterosexual people          |
+| hétérosexuels                           | Heterosexuals                |
+| personnes gays                          | Gay people                   |
+| gays                                    | Gays                         |
+| lesbiennes                              | Lesbians                     |
+| personnes homosexuelles                 | Homosexual people            |
+| homosexuels                             | Homosexuals                  |
+| personnes bisexuelles                   | Bisexual people              |
+| bisexuels                               | Bisexuals                    |
+| personnes queer                         | Queer people                 |
+| queers                                  | Queers                       |
+| LGB                                     | LGB                          |
+| LGBT                                    | LGBT                         |
+| LGBTQ                                   | LGBTQ                        |
+| personnes dépressives                   | People with depression       |
+| dépressifs                              | Depressives                  |
+| personnes bipolaires                    | Bipolar people               |
+| personnes atteintes de TSPT             | People with PTSD             |
+| personnes atteintes de troubles mentaux | Mentally ill people          |
+| personnes avec des maladies mentales    | People with mental illnesses |
+| les malades mentaux                     | The mentally ill             |
+| personnes juives                        | Jewish people                |
+| Juifs                                   | Jews                         |
+| musulmans                               | Muslims                      |
+| sikhs                                   | Sikhs                        |
+| hindous                                 | Hindus                       |
+| bouddhistes                             | Buddhists                    |
+| chrétiens                               | Christians                   |
+| athées                                  | Atheists                     |
+
+Russian:
+
+| Russian Key Word                   | English Translation / Explanation                          |
+| :---------------------------------- | :---------------------------------------------------------- |
+| мужчина                            | man                                                        |
+| женщина                            | woman                                                      |
+| транс-мужчинa                      | trans man                                                  |
+| транс-женщина                      | trans woman                                                |
+| трансгендерных людей               | transgender people                                         |
+| небинарных людей                   | non-binary people                                          |
+| интерсекс-людей                    | intersex people                                            |
+| белых                              | white people                                               |
+| чёрных                             | Black people                                               |
+| азиатов                            | Asian people                                               |
+| латиносов                          | Latino people                                              |
+| натуралов                          | straight people (colloquial)                               |
+| гетеросексуалов                    | heterosexuals (formal)                                     |
+| педиков                            | gay (slur, highly offensive)                               |
+| геев                               | gay (neutral)                                              |
+| лесбиянок                          | lesbians                                                   |
+| гомосексуалов                      | homosexuals (formal/clinical)                              |
+| бисексуалов                        | bisexuals                                                  |
+| квиров                             | queers (may be reclaimed or pejorative, context-dependent) |
+| ЛГБ                                | LGB                                                        |
+| ЛГБТ                               | LGBT                                                       |
+| ЛГБТК+                             | LGBTQ+                                                     |
+| людей с депрессией                 | people with depression                                     |
+| депрессивных                       | depressives (adjective form, often stigmatizing)           |
+| биполярных людей                   | bipolar people                                             |
+| людей с ПТСР                       | people with PTSD                                           |
+| психически больных                 | mentally ill people (can be stigmatizing)                  |
+| людей с психическими заболеваниями | people with mental illnesses                               |
+| еврейский народ                    | the Jewish people                                          |
+| жидов                              | Jews (extremely offensive slur, illegal in many contexts)  |
+| евреев                             | Jews (neutral)                                             |
+| исламистов                         | Islamists (politicized/religious extremists)               |
+| мусульман                          | Muslims                                                    |
+| сикхов                             | Sikhs                                                      |
+| практикующих индуистов             | practicing Hindus                                          |
+| индуистов                          | Hindus                                                     |
+| буддистских людей                  | Buddhist people                                            |
+| буддистов                          | Buddhists                                                  |
+| христиан                           | Christians                                                 |
+| католиков                          | Catholics (neutral)                                        |
+| папистов                           | Papists (derogatory for Catholics)                         |
+| православных                       | Orthodox Christians (neutral)                              |
+| рпцшников                          | members of Russian Orthodox Church (pejorative)            |
+| протестантов                       | Protestants                                                |
+| сектантов                          | Protestants (derogatory: sectarians)                       |
+| неверующих                         | non-believers                                              |
+| безбожников                        | godless people (derogatory)                                |
+| атеистов                           | atheists                                                   |
+
+FIN
