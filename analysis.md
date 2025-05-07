@@ -11,23 +11,24 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 ---
 
 # Table of Contents
-1. [What is Detoxify? - Understanding Toxicity Detection in Language](#What-is-Detoxify?---Understanding-Toxicity-Detection-in-Language)
- 	1. [How does it work?](#how-does-it-work)
-		1. [What does it detect?](#What-Does-It-Detect?)
-		2. [Available models](#Available-Models)
-		3. [Input and Output](#Input-and-Output)
-	2. [Language Support](#Language-Support)
-	3. [Tech Specs](#Technical-Specifications)
-2. [Literature Review](#Literature-Review)
-3. [Methodology](#Methodology)
-   	1. [Test Phrases](#Test-Phrases)
-		1. [Template Phrases](#Template-Phrases)
-		2. [Key Words](#Key-Words)
-	2. [Technical Implementation](#Technical-Implementation)
-4. Findings English
-5. Findings French
-6. Findings Russian
-7. 
+1. [What is Detoxify? - Understanding Toxicity Detection in Language](#what-is-detoxify---understanding-toxicity-detection-in-language)
+	1. [How does it work?](#how-does-it-work)
+		1. [What does it detect?](#what-does-it-detect)
+		2. [Available models](#available-models)
+		3. [Input and Output](#input-and-output)
+	2. [Language Support](#language-support)
+	3. [Tech Specs](#technical-specifications)
+2. [Literature Review](#literature-review)
+3. [Methodology](#methodology)
+   	1. [Test Phrases](#test-phrases)
+		1. [Template Phrases](#template-phrases)
+		2. [Key Words](#key-words)
+	2. [Technical Implementation](#technical-implementation)
+4. [English Findings](#english-findings)
+5. [French Findings](#french-findings)
+6. [Russian Findings](#russian-findings)
+7. [Findings Comparison Charts](#findings-comparison-charts)
+8. [Overall Conclusions](#overall-conclusions)
 
 # What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
@@ -157,18 +158,10 @@ The toxicity score from Detoxify was received, and separated from the additional
 
 Finally, Google Sheets was used to read the CSV file and to provide first-level analysis, namely a gradient colour mapping of toxicity scores allowing easy-to-read and simple analyses to be made before more in-depth charts were produced.
 
-## Comparison 
-![PHOTO-2025-05-02-01-20-38](https://github.com/user-attachments/assets/1bd0399f-8a1c-4abd-b7a2-27d97710097e)
-
-![PHOTO-2025-05-02-01-40-33](https://github.com/user-attachments/assets/142ef0fd-70b0-426b-b993-fb22229d0cdc)
-
-![PHOTO-2025-05-02-01-39-57](https://github.com/user-attachments/assets/082e281b-9c92-4dd7-a12e-bcbe83fb2c84)
+# English Findings 
 
 
-# Findings English: 
-
-
-# Findings French: 
+# French Findings 
 ![PHOTO-2025-05-02-00-54-01](https://github.com/user-attachments/assets/46618730-d0a2-4daa-a3d8-a5ffc776c4c4) 
 Primarily, sexual identity content is marked as toxic far more than content addressing race, gender identity, or religion. Specifically, sexual identity averages a toxicity score of 0.454 — the highest across all categories and languages analyzed. This suggests that the model is most attuned to LGBTQ+-related language, likely reflecting both the prevalence of queerphobic language in training data and the broader social emphasis on identifying and mitigating this form of discrimination. French might provide linguistic features where it is easier to read queerphobic hate speech, which is often more direct- This indicates that the model is sensitive to the social harms associated with sexual identity, though can also indicate a tendency to over-flag certain content when it lacks respectful context. This leads to a broader discussion to what degree content moderation can limit reclaimed hate speech, and to what degree it interprets neutral terms like ‘gay’ more often as an inherently prerogative term. This would imply that Detoxify might be imbued with a predetermined association between, especially queer terms, and hate. This could limit open and free discouse on queer and LGBTQIA+ issues.
 
@@ -178,36 +171,36 @@ For comparison, religious content receives a very low average toxicity score of 
 
 Despite the system being so sensitive to sexual identity matters, it is less sensitive to cultural nuances concerning religion or to specific linguistic traps (like double meanings) in French. This underscores the need for careful calibration and culturally sensitive training in the deployment of automated moderation tools so that they heed not only universal trends of hate speech but also local linguistic and cultural specificities.
 
-# Findings Russian: 
-## *Overview:*
+# Russian Findings
+## Overview
 This section presents findings from the evaluation of Detoxify's multilingual model on Russian-language content. With a subgroup size of 10,948 and an AUC score of 89.81%, the model shows relatively strong performance in identifying highly toxic speech. The goal of this analysis is twofold: first, to assess how well the model detects various forms of hate; and second, to explore whether toxicity evaluations vary systematically depending on which social groups are mentioned, potentially revealing underlying sensitivities or biases.
 
-## *Phrases Used:*
+## Phrases Used
 To ensure transparency and allow replication, a complete set of the 62 phrases used in the Russian-language analysis is included in the data section of this site. Each phrase includes a placeholder (\[\]) for different identity groups and has been translated to match the structure used in English and French versions.
 Please note that for the phrase “gas the \[\]”, the Russian version was adapted to “put \[\] into the gas chamber” to better reflect a natural and culturally recognizable expression in Russian. Additionally, the phrase *Очередной кровавый \[\]* is a literal translation of “bloody \[\]” but does not carry the same idiomatic or emotional meaning in Russian. The alternative phrase *Проклятые \[\]* (“damned \[\]”) was thus also included as it conveys a closer semantic and emotional equivalent.
 
-## *Categories Analyzed:*
+## Categories Analyzed
 In evaluating the performance of Detoxify’s multilingual model on Russian-language inputs, this study focused on toxicity classification across five key identity-related categories: **gender identity**, **ethnicity**, **sexual orientation**, **mental health**, and **religion**. Each phrase was constructed using a target group identifier embedded within commonly toxic or implicitly biased Russian-language statements. The aim was to examine not only the model's general ability to detect hate speech, but also its sensitivity to group-specific slurs, stereotypes, or reclaimed identifiers.
 To ensure cross-linguistic comparability, the identity categories largely mirror those used in English and French datasets. However, some important language-specific distinctions were accounted for:
 * For example, Russian does not use terms equivalent to e.g., both “White people” and “Whites” with the same connotations as in English; only one neutral term (“белых”) was used.  
 * Religious terminology was explored in more depth, reflecting the greater role religion plays in Russian sociocultural discourse.  
 * Multiple terms for Jewish people and homosexuals were included to assess how the model responds to neutral, formal, reclaimed, and derogatory expressions—particularly relevant given the historical and social sensitivities in Russian contexts.
 
-## *Breakdown of Scores by Group Characteristics* {#breakdown-of-scores-by-group-characteristics}
+## Breakdown of Scores by Group Characteristics
 This graph presents the toxicity scores of selected terms, categorized according to group characteristics such as gender identity, ethnicity, sexual orientation, mental health, and religion.  
 ![Russianimg1](https://github.com/user-attachments/assets/429451b5-7f6a-4308-82d0-efb386aa709e)
 
-## *Heat Map of Results:*  {#heat-map-of-results:}
+## Heat Map of Results
 Visual representation for easy comparison of toxicity across all possible phrases.  
 ![Russianimg2](https://github.com/user-attachments/assets/5ba567e1-c3d3-4efe-8013-7316b42ad586)
 
-## *Overview of Observed Trends* {#overview-of-observed-trends}
+## Overview of Observed Trends
 This section summarizes the most salient patterns revealed by the toxicity scores across various identity groups and linguistic constructions, as visualized in the heatmap and mean score tables.
 
-### *General Sensitivity to Explicit vs. Implicit Language* {#general-sensitivity-to-explicit-vs.-implicit-language}
+### General Sensitivity to Explicit vs. Implicit Language
 The model’s sensitivity appears to be primarily driven by **linguistic explicitness**, rather than by the specific **identity group** referenced. Phrases containing overt hate speech—particularly those with violent or dehumanizing language—are consistently flagged as highly toxic, regardless of the targeted group. However, once such statements become more subtle or implicit in tone, **toxicity scores drop sharply**, even when the underlying message remains harmful or derogatory. This indicates a limitation in the model's ability to detect **implied or coded hate speech**, especially when overt lexical markers of aggression are absent.
 
-### *Identity-Specific Patterns and Outliers* {#identity-specific-patterns-and-outliers}
+### Identity-Specific Patterns and Outliers
 While the overall trend shows language-driven toxicity detection, certain identity terms were **systematically scored higher** across contexts, suggesting these may have been disproportionately represented in the model’s training data. For example:
 
 * The terms *“bisexual,”* *“gay”* (both slur and neutral usages), and *“homosexual”* often receive elevated toxicity scores—even in neutral or positive contexts.  
@@ -215,7 +208,7 @@ While the overall trend shows language-driven toxicity detection, certain identi
 
 This inconsistency suggests the model’s **conceptualization of toxicity may be sensitive to the lexical form of identity terms**, rather than their pragmatic use in context.
 
-### *Mean Toxicity by Category* {#mean-toxicity-by-category}
+### Mean Toxicity by Category
 An aggregate analysis of mean toxicity scores across major identity categories reveals notable differences. Russian-language outputs generally align with the observed average, showing the highest mean toxicity for phrases referencing **sexual identity** and the lowest for those referencing **mental illness**:
 
 * **Sexual identity**: Mean toxicity score \= 0.406  
@@ -223,8 +216,8 @@ An aggregate analysis of mean toxicity scores across major identity categories r
 
 These results point toward a relative **over-sensitivity** in the domain of sexual orientation and a **comparative under-sensitivity** in discussions of mental health. Whether these patterns stem from cultural-linguistic features of Russian or from biases in the underlying training data remains a point for further exploration.
 
-### *Findings within Categories*  {#findings-within-categories}
-#### Gender Identity {#gender-identity}
+### Findings within Categories
+#### Gender Identity
 The category of gender identity revealed a clear pattern of **identity-linked bias** in the model's scoring behavior. When the only change in a phrase was the gender-related identity term, Detoxify assigned consistently **higher toxicity scores** to marginalized identities such as:
 
 * *trans women*  
@@ -283,7 +276,7 @@ raising concerns about whether hate expressed through “reclaimed” language i
 Overall, phrases involving mental health terms scored lower on average than all the other identity categories, especially in non-explicit contexts, with a mean toxicity score of 0.236. Similar to other categories, highly-toxic hate was usually correctly flagged.  
 However, there were notable outliers: Despite the more stigmatizing noun-use of “depressives” (0.1888) , “bipolar people” received a higher average score of 0.3244.  This may indicate that the model has been trained on more abuse linked to specific diagnoses, or that certain terms are more often used pejoratively online. Still, neutral references to mental health were rarely misclassified, suggesting lower risk of false positives compared to other identity domains.
 
-#### Religion {#religion}
+#### Religion
 Religious identity terms received relatively low toxicity scores overall, especially as language became more indirect. While highly-toxic hate toward religious groups was typically flagged with moderate to high scores, subtle or implied hate often went undetected, suggesting a limited capacity for nuance in the model’s religious bias detection.
 
 Terms for Muslim and Jewish populations showed elevated toxicity scores in “highly toxic” and “implied hate” comments, yet quickly tapered off, with some specific phrases triggering random higher scores. Most strikingly, a common antisemitic slur consistently received lower toxicity scores than neutral references like “Jew”. In several cases, the slur scored less than half the value of the neutral term. This strongly suggests the slur was either absent from the training data or not properly annotated as toxic, resulting in underrecognition of historically harmful language.  
@@ -292,34 +285,29 @@ Moreover, Atheist-related terms, like “godless” (0.2088) and “atheist” (
 
 Overall, religious identity appears less salient as a trigger for toxicity detection, especially outside of explicit hate. The model demonstrates limited sensitivity to indirect or culturally coded religious hate, and inconsistently scores slurs versus neutral terms, likely due to gaps or imbalances in the training data. The unexpected patterns around Christian denominations and antisemitic slurs raise further concerns about whether religious hate—particularly in subtle forms—is being accurately recognized or mitigated by the model.
 
-### Important Results {#important-results}
+### Russian Overall Results
 While many patterns in the model’s behavior aligned with expectations, several outlier findings revealed important gaps in the model's ability to detect nuanced or historically rooted forms of hate speech.
 
-**1\. Under-Detection of Offensive Antisemitic & religious Language**
-
+1) *Under-Detection of Offensive Antisemitic & religious Language*:
 A particularly concerning anomaly was the under-detection of an antisemitic slur, which has been cited in case law in Russia, resulting in prison sentences and fines for its usage. Despite its highly offensive nature, this term consistently scored lower than neutral terms like “Jew”. This suggests that the model has significant blind spots when it comes to recognizing coded, historical, or context-dependent hate speech, particularly language with legal consequences in certain contexts.  
 This issue was similarly observed in derogatory terms for Christian denominations. In these cases, slurs targeting specific Christian groups were also under-flagged, often receiving low toxicity scores compared to other terms. Even in contexts where these terms were used with negative connotations, they did not trigger the expected level of toxicity. This further highlights the model’s limited recognition of subtle or culturally contextualized hate speech, which may be culturally embedded but not overtly aggressive in phrasing.
 
-**2\. Gender and Religion: Women Scored Lower than Atheists**
-
+2) *Gender and Religion: Women Scored Lower than Atheists*:
 In terms of gendered language, comments involving “women” were perceived as less toxic than similar phrases targeting other identity groups. In fact, women were on average scored 0.1952, compared to “godless” (0.2088) and “atheist” (0.2326). This suggests that the model may underestimate the toxicity of misogynistic language, particularly when it is less explicit but still harmful. Especially in the context of Russia—where sexual violence and domestic abuse are well-documented issues, and laws in the past decade have been softened to decriminalize certain forms of domestic abuse—this represents an urgent and deeply concerning shortcoming in the AI model.[^3]
 
-**3\. The “Bloody” Modifier: Triggered by Violence Association**
-
+3) *The “Bloody” Modifier: Triggered by Violence Association*:
 A direct translation of the phrase “bloody \[\]” into Russian, which doesn't naturally make sense in the language, nonetheless received surprisingly high toxicity scores, as if it were an explicit insult. This overflagging may be due to the model’s association of blood with violence, which is a common linguistic pattern across many languages, including Russian. In contexts where "blood" is linked with aggression and hostility, the model appears to have over-responded by attributing a higher toxicity score, despite the term not being naturally offensive in this context. The fact that “bloody \[\]”—a phrase that doesn’t make sense in a direct Russian translation—was still rated similarly to overt insults highlights the model's heightened sensitivity to violent or aggressive language, even when the expression itself doesn't fit culturally or linguistically.
 
 These findings underscore the model’s limited ability to detect culturally nuanced and historically embedded hate speech, particularly when it is indirect or context-dependent. The under-recognition of antisemitic slurs, misogynistic language, and other more derogatory terms highlights biases in the dataset or labeling process, where subtle or coded hate speech remains under-flagged. Conversely, language associated with violence, such as "bloody," demonstrate a possible over-sensitivity, revealing a lack of nuanced understanding in the model’s toxicity detection capabilities. This suggests that the model may not strike an appropriate balance between under-flagging subtle hate speech and over-flagging language that is not inherently offensive.
 
 
-# Findings Example: 
+# Findings Comparison Charts
+The following two charts demonstrate the average toxicity scores across the three languages, grouped by category of hate speech. It is evident that sexual orientation speech has higher toxicity scores across all three languages, followed by ethnicity. English demonstrates higher toxicity across all categories except sexual orientation.
+![PHOTO-2025-05-02-01-20-38](https://github.com/user-attachments/assets/1bd0399f-8a1c-4abd-b7a2-27d97710097e)
 
-![PHOTO-2025-05-02-01-41-24](https://github.com/user-attachments/assets/7c54001e-df4c-46d1-b0e2-d44c04bf02ee)
+![PHOTO-2025-05-02-01-40-33](https://github.com/user-attachments/assets/142ef0fd-70b0-426b-b993-fb22229d0cdc)
 
-![PHOTO-2025-05-02-01-41-25](https://github.com/user-attachments/assets/ab10dc78-6f71-4be8-9ef1-88a79ca3906f)
-
-![PHOTO-2025-05-02-01-41-25](https://github.com/user-attachments/assets/feed12cc-13f1-4a70-842f-94dd0eaf030c)
-
-# Takeaways: Decoding Biases in Content Moderation 
+# Overall Conclusions
 1) *Toxicity is nuanced and language-specific*:
 Toxicity is not universal; it is conditioned on the manner in which each language encodes meaning and the manner in which cultural norms shape what is deemed to be hateful or offensive. Linguistic features such as double meanings (e.g., "homme" having both man and human meanings) and local conventions for politeness and criticism make the same terms or phrases have very different toxic loads across languages.
 
