@@ -330,7 +330,8 @@ These issues naturally extend into broader political debates over censorship, in
 
 # Appendix A: Template Phrases
 English:
-| Category     | Template                                                    |
+
+| Category | Template                                                 |
 | :------------ | :------------------------------------------------------------ |
 | Highly toxic | I hate all []                                                |
 | Highly toxic | I hate all [], they ruin everything                          |
@@ -462,6 +463,7 @@ French:
 | Irony        | On devrait carrément rassembler les []… je rigole (ou pas ?) |
 | Irony        | T’as qu’à rejeter la faute sur les [], après tout !          |
 
+Russian:
 
 | Category     | Template                                               |
 | :------------ | :------------------------------------------------------ |
