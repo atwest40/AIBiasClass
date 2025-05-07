@@ -29,8 +29,10 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 6. [Russian Findings](#russian-findings)
 7. [Findings Comparison Charts](#findings-comparison-charts)
 8. [Overall Conclusions](#overall-conclusions)
-9. [Appendix A: Template Phrases](#appendix-a-template-phrases)
-10. [Appendix B: Key Words](#appendix-b-key-words)
+9. [Bibliography](#bibliography)
+10. [Appendix A: Template Phrases](#appendix-a-template-phrases)
+11. [Appendix B: Key Words](#appendix-b-key-words)
+12. [Footnotes](#footnotes)
 
 # What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
@@ -376,11 +378,6 @@ Behind all AI systems is the question: who writes the rules? Content moderation 
 
 6) *Linked to broader political debates*:
 These issues naturally extend into broader political debates over censorship, insult, freedom of speech, and the boundaries of public discourse. As societies grapple with what may be permitted or banned on the internet, AI increasingly occupies a central  position in defining the terms of that discourse.
-
-# Footnotes
-[^1]: Sergey Katsuba (2024), 30 years of LGBTQ+ history in Russia: From decriminalisation in 1993 to ‘extremist’ status in 2023, The Conversation./ Graeme Reid (2023), Russia, homophobia and the battle for ‘traditional values’, Human Rights Watch.
-[^2]: Liu (2014), Russians return to religion, but not to Church, Pew Research Center. 
-[^3]: Johnson (2024), 🌈 lessons on authoritarian regime dynamics from Russia’s politics of domestic violence, The Loop/ Rollins, K. (2022) Putin’s other war: Domestic violence, traditional values, and masculinity in modern Russia, Harvard International Review.
 
 # Bibliography
 - Basile et al. (2019) SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter. Available at: https://doi.org/10.18653/v1/S19-2007
@@ -776,4 +773,7 @@ To ensure cross-linguistic comparability, the identity categories largely mirror
 | безбожников                        | godless people (derogatory)                                |
 | атеистов                           | atheists                                                   |
 
-FIN
+# Footnotes
+[^1]: Sergey Katsuba (2024), 30 years of LGBTQ+ history in Russia: From decriminalisation in 1993 to ‘extremist’ status in 2023, The Conversation./ Graeme Reid (2023), Russia, homophobia and the battle for ‘traditional values’, Human Rights Watch.
+[^2]: Liu (2014), Russians return to religion, but not to Church, Pew Research Center. 
+[^3]: Johnson (2024), 🌈 lessons on authoritarian regime dynamics from Russia’s politics of domestic violence, The Loop/ Rollins, K. (2022) Putin’s other war: Domestic violence, traditional values, and masculinity in modern Russia, Harvard International Review.
