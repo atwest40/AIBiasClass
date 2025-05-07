@@ -132,3 +132,24 @@ The iterated constructed phrases were then sent to Detoxify’s API, using the �
 The toxicity score from Detoxify was received, and separated from the additional information on confidence for each category of hate, which was not utilised for our experiment. Each phrase was then assigned a score in a Pandas dataframe, and in turn exported to a matrix in CSV format.
 
 Finally, Google Sheets was used to read the CSV file and to provide first-level analysis, namely a gradient colour mapping of toxicity scores allowing easy-to-read and simple analyses to be made before more in-depth charts were produced.
+
+
+## Takeaways: Decoding Biases in Content Moderation 
+1) *Toxicity is nuanced and language-specific*:
+Toxicity is not universal; it is conditioned on the manner in which each language encodes meaning and the manner in which cultural norms shape what is deemed to be hateful or offensive. Linguistic features such as double meanings (e.g., "homme" having both man and human meanings) and local conventions for politeness and criticism make the same terms or phrases have very different toxic loads across languages.
+
+2) *Cultural norms and freedom of speech matter*:
+French, for example, has rich histories of laïcité (secularism) and religious critique freedom, which presumably operates to get religion speech flagged as less toxic. Conversely, the societal consensus that heavily condones queerphobia can potentially explain LGBTQ+ - oriented insult being flagged more. Offending speech and insults are thus contextually interpreted. What counts as "hate speech" in one society might count as biting debate or fair critique in another.
+
+3) *Concerns for AI and language technologies*:
+This raises significant concerns for AI instruments aimed at automating moderation, translation, or toxicity detection. Machines lack the human sensitivity to navigate subtle, context-dependent meaning and are completely dependent on the data and assumptions they are trained with. Automated processes like translation or content moderation risk flattening these nuances and applying one-size-fits-all standards that don't respect local meanings.
+
+4) *Discriminatory impact on vulnerable groups*:
+Automated content moderation disproportionately censors marginalized communities, particularly when they reclaim their own language or speak about their own identity and freedom struggles. Uplifting words or community language may be wrongly categorized as toxic since the algorithm does not comprehend context, irony, or reappropriation. This silencing ability limits marginalized groups' ability to speak on their own and inhibits their linguistic and political agency.
+
+5) *Who are the moderators?*:
+Behind all AI systems is the question: who writes the rules? Content moderation is not neutral; AI systems are "regimes of discourse" that decide what kinds of language, knowledge, and expressions are valid or acceptable. This decides not just what is acceptable online but also what kind of human expression is heard or silenced, quietly controlling linguistic possibility and curtailing the range of human sensibilities and epistemologies.
+
+6) *Linked to broader political debates*:
+These issues naturally extend into broader political debates over censorship, insult, freedom of speech, and the boundaries of public discourse. As societies grapple with what may be permitted or banned on the internet, AI increasingly occupies a central  position in defining the terms of that discourse.
+
