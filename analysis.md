@@ -12,25 +12,29 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 
 # Table of Contents
 1. [What is Detoxify? - Understanding Toxicity Detection in Language](#What-is-Detoxify?---Understanding-Toxicity-Detection-in-Language)
-	1.1. [How does it work?](#How-Does-It-Work?)
-		1.1.1. [What does it detect?](#What-Does-It-Detect?)
-		1.1.2. [Available models](#Available-Models)
-		1.1.3. [Input and Output](#Input-and-Output)
-	1.2. [Language Support](#Language-Support)
-	1.3. [Tech Specs](#Technical-Specifications)
+ 	1. [How does it work?](#how-does-it-work)
+		1. [What does it detect?](#What-Does-It-Detect?)
+		2. [Available models](#Available-Models)
+		3. [Input and Output](#Input-and-Output)
+	2. [Language Support](#Language-Support)
+	3. [Tech Specs](#Technical-Specifications)
 2. [Literature Review](#Literature-Review)
 3. [Methodology](#Methodology)
-	3.1. [Test Phrases](#Test-Phrases)
-		3.1.1. [Template Phrases](#Template-Phrases)
-		3.1.2. [Key Words](#Key-Words)
-	3.2. [Technical Implementation](#Technical-Implementation)
+   	1. [Test Phrases](#Test-Phrases)
+		1. [Template Phrases](#Template-Phrases)
+		2. [Key Words](#Key-Words)
+	2. [Technical Implementation](#Technical-Implementation)
+4. Findings English
+5. Findings French
+6. Findings Russian
+7. 
 
 # What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
 
 It aims ultimately to mitigate online harm through intelligent content moderation
 
-## How Does It Work? {#How-Does-It-Work?:} (#How-Does-It-Work?:)
+## How Does It Work?
 Detoxify is a deep learning-based tool for detecting toxic language in text. It uses pretrained Transformer models fine-tuned on labelled data from various Jigsaw Toxic Comment Classification challenges. Here's how it works in detail:
 ### What Does It Detect?
 Each model outputs a toxicity probability score (0 to 1) for one or more of the following categories:
