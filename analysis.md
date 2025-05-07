@@ -189,25 +189,20 @@ To ensure cross-linguistic comparability, the identity categories largely mirror
 * Multiple terms for Jewish people and homosexuals were included to assess how the model responds to neutral, formal, reclaimed, and derogatory expressions—particularly relevant given the historical and social sensitivities in Russian contexts.
 
 ## *Breakdown of Scores by Group Characteristics* {#breakdown-of-scores-by-group-characteristics}
-
 This graph presents the toxicity scores of selected terms, categorized according to group characteristics such as gender identity, ethnicity, sexual orientation, mental health, and religion.  
-
+![Russianimg1](https://github.com/user-attachments/assets/429451b5-7f6a-4308-82d0-efb386aa709e)
 
 ## *Heat Map of Results:*  {#heat-map-of-results:}
-
 Visual representation for easy comparison of toxicity across all possible phrases.  
-
+![Russianimg2](https://github.com/user-attachments/assets/5ba567e1-c3d3-4efe-8013-7316b42ad586)
 
 ## *Overview of Observed Trends* {#overview-of-observed-trends}
-
 This section summarizes the most salient patterns revealed by the toxicity scores across various identity groups and linguistic constructions, as visualized in the heatmap and mean score tables.
 
 ### *General Sensitivity to Explicit vs. Implicit Language* {#general-sensitivity-to-explicit-vs.-implicit-language}
-
 The model’s sensitivity appears to be primarily driven by **linguistic explicitness**, rather than by the specific **identity group** referenced. Phrases containing overt hate speech—particularly those with violent or dehumanizing language—are consistently flagged as highly toxic, regardless of the targeted group. However, once such statements become more subtle or implicit in tone, **toxicity scores drop sharply**, even when the underlying message remains harmful or derogatory. This indicates a limitation in the model's ability to detect **implied or coded hate speech**, especially when overt lexical markers of aggression are absent.
 
 ### *Identity-Specific Patterns and Outliers* {#identity-specific-patterns-and-outliers}
-
 While the overall trend shows language-driven toxicity detection, certain identity terms were **systematically scored higher** across contexts, suggesting these may have been disproportionately represented in the model’s training data. For example:
 
 * The terms *“bisexual,”* *“gay”* (both slur and neutral usages), and *“homosexual”* often receive elevated toxicity scores—even in neutral or positive contexts.  
@@ -216,7 +211,6 @@ While the overall trend shows language-driven toxicity detection, certain identi
 This inconsistency suggests the model’s **conceptualization of toxicity may be sensitive to the lexical form of identity terms**, rather than their pragmatic use in context.
 
 ### *Mean Toxicity by Category* {#mean-toxicity-by-category}
-
 An aggregate analysis of mean toxicity scores across major identity categories reveals notable differences. Russian-language outputs generally align with the observed average, showing the highest mean toxicity for phrases referencing **sexual identity** and the lowest for those referencing **mental illness**:
 
 * **Sexual identity**: Mean toxicity score \= 0.406  
@@ -225,9 +219,7 @@ An aggregate analysis of mean toxicity scores across major identity categories r
 These results point toward a relative **over-sensitivity** in the domain of sexual orientation and a **comparative under-sensitivity** in discussions of mental health. Whether these patterns stem from cultural-linguistic features of Russian or from biases in the underlying training data remains a point for further exploration.
 
 ### *Findings within Categories*  {#findings-within-categories}
-
 #### Gender Identity {#gender-identity}
-
 The category of gender identity revealed a clear pattern of **identity-linked bias** in the model's scoring behavior. When the only change in a phrase was the gender-related identity term, Detoxify assigned consistently **higher toxicity scores** to marginalized identities such as:
 
 * *trans women*  
