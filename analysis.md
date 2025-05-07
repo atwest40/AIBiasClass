@@ -380,24 +380,24 @@ Behind all AI systems is the question: who writes the rules? Content moderation 
 These issues naturally extend into broader political debates over censorship, insult, freedom of speech, and the boundaries of public discourse. As societies grapple with what may be permitted or banned on the internet, AI increasingly occupies a central  position in defining the terms of that discourse.
 
 # Bibliography
-- Basile et al. (2019) SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter. Available at: https://doi.org/10.18653/v1/S19-2007
-- Davidson et al. (2017) Automated Hate Speech Detection and the Problem of Offensive Language. Available at: https://doi.org/10.48550/arXiv.1703.04009
-- Fortuna and Nunes (2018) A Survey on Automatic Detection of Hate Speech in Text. Available at: https://dl.acm.org/doi/10.1145/3232676
-- Hanu, L., Thewlis, J., Haco, S. (2021) How AI Is Learning to Identify Toxic Online Content, Scientific American. Available at: https://www.scientificamerican.com/article/can-ai-identify-toxic-online-content/ (Accessed 23 April 2025).
-- Hartvigsen et al. (2022) Toxigen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection. Available at: https://doi.org/10.18653/v1/2022.acl-long.234
-- Hutto et al. (2014) VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text
-- Johnson, J.E. (2024) 🌈 lessons on authoritarian regime dynamics from Russia’s politics of domestic violence, The Loop. Available at: https://theloop.ecpr.eu/lessons-on-authoritarian-regime-dynamics-from-russias-politics-of-domestic-violence/ (Accessed: 06 May 2025). 
+- Basile et al. (2019) SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter. Available at: [https://doi.org/10.18653/v1/S19-2007](#https://doi.org/10.18653/v1/S19-2007)
+- Davidson et al. (2017) Automated Hate Speech Detection and the Problem of Offensive Language. Available at: [https://doi.org/10.48550/arXiv.1703.04009](#https://doi.org/10.48550/arXiv.1703.04009)
+- Fortuna and Nunes (2018) A Survey on Automatic Detection of Hate Speech in Text. Available at: [https://dl.acm.org/doi/10.1145/3232676](#https://dl.acm.org/doi/10.1145/3232676)
+- Hanu, L., Thewlis, J., Haco, S. (2021) How AI Is Learning to Identify Toxic Online Content, Scientific American. Available at: [https://www.scientificamerican.com/article/can-ai-identify-toxic-online-content/](#https://www.scientificamerican.com/article/can-ai-identify-toxic-online-content/) (Accessed 23 April 2025).
+- Hartvigsen et al. (2022) Toxigen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection. Available at: [https://doi.org/10.18653/v1/2022.acl-long.234](#https://doi.org/10.18653/v1/2022.acl-long.234)
+- Hutto et al. (2014) VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text. Available at: [https://doi.org/10.1609/icwsm.v8i1.14550](#https://doi.org/10.1609/icwsm.v8i1.14550)
+- Johnson, J.E. (2024) 🌈 lessons on authoritarian regime dynamics from Russia’s politics of domestic violence, The Loop. Available at: [https://theloop.ecpr.eu/lessons-on-authoritarian-regime-dynamics-from-russias-politics-of-domestic-violence/](#https://theloop.ecpr.eu/lessons-on-authoritarian-regime-dynamics-from-russias-politics-of-domestic-violence/) (Accessed: 06 May 2025). 
 - Reid, G. (2023) Russia, homophobia and the battle for ‘traditional values’, Human Rights Watch. Available at: https://www.hrw.org/news/2023/05/17/russia-homophobia-and-battle-traditional-values (Accessed: 06 May 2025). 
-Katsuba PhD Candidate, S. (2024) 30 years of LGBTQ+ history in Russia: From decriminalisation in 1993 to ‘extremist’ status in 2023, The Conversation. Available at: https://theconversation.com/30-years-of-lgbtq-history-in-russia-from-decriminalisation-in-1993-to-extremist-status-in-2023-220569 (Accessed: 06 May 2025).
-- Rollins, K. (2022) Putin’s other war: Domestic violence, traditional values, and masculinity in modern Russia, Harvard International Review. Available at: https://hir-harvard-edu.cdn.ampproject.org/v/s/hir.harvard.edu/putins-other-war/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQIUAKwASCAAgM%3D#amp_tf=Von%20%251%24s&aoh=17464797813138&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fhir.harvard.edu%2Fputins-other-war%2F (Accessed: 06 May 2025). 
-- Liu, J. (2014) Russians return to religion, but not to Church, Pew Research Center. Available at: https://www.pewresearch.org/religion/2014/02/10/russians-return-to-religion-but-not-to-church/ (Accessed: 06 May 2025).
-- Minaee et al. (2024) Large Language Models and Toxicity: A Survey. Available at: https://doi.org/10.48550/arXiv.2402.06196
-- Pitsilis et al. (2018) Detecting Offensive Language in Tweets Using Deep Learning. Available at: https://doi.org/10.48550/arXiv.1801.04433
-- Prabhu, R., Seethalakshmi, V. (2025) A comprehensive framework for multi-modal hate speech detection in social media using deep learning, Scientific Reports. Available at: https://www.nature.com/articles/s41598-025-94069-z (Accessed 23 April 2025).
-- Schmidt et al. (2017) A Survey on Hate Speech Detection using Natural Language Processing. Available at: https://doi.org/10.18653/v1/W17-1101
-- Sap et al. (2019) The Risk of Racial Bias in Hate Speech Detection. Available at: https://doi.org/10.18653/v1/P19-1163
-- Vidgen et al. (2019) Challenges and Frontiers in Abusive Content Detection. Available at: https://doi.org/10.18653/v1/W19-3509
-- Vidgen & Yasseri (2020) Detecting Weak and Strong Islamophobic Hate Speech on Social Media. Available at: https://doi.org/10.1080/19331681.2019.1702607
+Katsuba PhD Candidate, S. (2024) 30 years of LGBTQ+ history in Russia: From decriminalisation in 1993 to ‘extremist’ status in 2023, The Conversation. Available at: [https://theconversation.com/30-years-of-lgbtq-history-in-russia-from-decriminalisation-in-1993-to-extremist-status-in-2023-220569](#https://theconversation.com/30-years-of-lgbtq-history-in-russia-from-decriminalisation-in-1993-to-extremist-status-in-2023-220569) (Accessed: 06 May 2025).
+- Rollins, K. (2022) Putin’s other war: Domestic violence, traditional values, and masculinity in modern Russia, Harvard International Review. Available at: [https://hir-harvard-edu.cdn.ampproject.org/v/s/hir.harvard.edu/putins-other-war](https://hir.harvard.edu/putins-other-war/) (Accessed: 06 May 2025). 
+- Liu, J. (2014) Russians return to religion, but not to Church, Pew Research Center. Available at: [https://www.pewresearch.org/religion/2014/02/10/russians-return-to-religion-but-not-to-church/](https://www.pewresearch.org/religion/2014/02/10/russians-return-to-religion-but-not-to-church/) (Accessed: 06 May 2025).
+- Minaee et al. (2024) Large Language Models and Toxicity: A Survey. Available at: [https://doi.org/10.48550/arXiv.2402.06196](https://doi.org/10.48550/arXiv.2402.06196)
+- Pitsilis et al. (2018) Detecting Offensive Language in Tweets Using Deep Learning. Available at: [https://doi.org/10.48550/arXiv.1801.04433](https://doi.org/10.48550/arXiv.1801.04433)
+- Prabhu, R., Seethalakshmi, V. (2025) A comprehensive framework for multi-modal hate speech detection in social media using deep learning, Scientific Reports. Available at: [https://www.nature.com/articles/s41598-025-94069-z](https://www.nature.com/articles/s41598-025-94069-z) (Accessed 23 April 2025).
+- Schmidt et al. (2017) A Survey on Hate Speech Detection using Natural Language Processing. Available at: [https://doi.org/10.18653/v1/W17-1101](https://doi.org/10.18653/v1/W17-1101)
+- Sap et al. (2019) The Risk of Racial Bias in Hate Speech Detection. Available at: [https://doi.org/10.18653/v1/P19-1163](https://doi.org/10.18653/v1/P19-1163)
+- Vidgen et al. (2019) Challenges and Frontiers in Abusive Content Detection. Available at: [https://doi.org/10.18653/v1/W19-3509](https://doi.org/10.18653/v1/W19-3509)
+- Vidgen & Yasseri (2020) Detecting Weak and Strong Islamophobic Hate Speech on Social Media. Available at: [https://doi.org/10.1080/19331681.2019.1702607](https://doi.org/10.1080/19331681.2019.1702607)
 
 
 # Appendix A: Template Phrases
