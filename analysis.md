@@ -34,10 +34,12 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 12. [Appendix B: Key Words](#appendix-b-key-words)
 13. [Footnotes](#footnotes)
 
-# What is Detoxify? - Understanding Toxicity Detection in Language
+# Introduction - What is Detoxify? - Understanding Toxicity Detection in Language
 Detoxify is an open-source AI tool - developed by Laura Hanu at Unitary that detects toxic or harmful language in online comments by using advanced natural language processing (NLP) techniques. Trained on real-world data (downloaded via Kaggle API), it helps researchers and platforms identify hate speech, bias, and offensive language across different languages and contexts. 
 
 It aims ultimately to mitigate online harm through intelligent content moderation
+
+Our research centres on the ability of Detoxify to detect hate speech across different categories of hate, and in different languages and cultural contexts. Our research question is: How do Detoxify toxicity scores vary between different categories and severity of hate, in English, French, and Russian. Below, we first explore the technical nature of Detoxify, before examining relevant literature and presenting our methodology. We then explore our results by language - English, French, and Russian in turn. Finally, we present key comparisons between the three languages (and national contexts), and find several overall conclusions. Included as appendices and in other sections of this site are all the parameters used in the course of this study.
 
 ## How Does It Work?
 Detoxify is a deep learning-based tool for detecting toxic language in text. It uses pretrained Transformer models fine-tuned on labelled data from various Jigsaw Toxic Comment Classification challenges. Here's how it works in detail:
