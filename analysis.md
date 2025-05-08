@@ -11,7 +11,7 @@ author: Annemarie Sommer, Varushka Bhushan, Richard Rybar, Moritz Schwenger, Aro
 ---
 
 # Table of Contents
-1. [What is Detoxify? - Understanding Toxicity Detection in Language](#what-is-detoxify---understanding-toxicity-detection-in-language)
+1. [Introduction - What is Detoxify? - Understanding Toxicity Detection in Language](#introduction---what-is-detoxify---understanding-toxicity-detection-in-language)
 	1. [How does it work?](#how-does-it-work)
 		1. [What does it detect?](#what-does-it-detect)
 		2. [Available models](#available-models)
